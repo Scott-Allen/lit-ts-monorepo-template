@@ -17,7 +17,7 @@ export const card = css`
   }
 
   @media only screen and (min-width: 1080px) {
-      /* For mobile phones: */
+      /* For desktop / wider screens */
       .card {
         width: 60%;
       }
