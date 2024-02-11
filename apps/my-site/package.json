@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "showconfig": "tsc --showConfig",
     "start": "wds --node-resolve --open --watch",
     "bundle": "parcel index.html"
   },
