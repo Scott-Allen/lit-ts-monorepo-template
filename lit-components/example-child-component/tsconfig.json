@@ -1,9 +1,9 @@
 {
-  "extends": "tsconfig/base",
+  "extends": "tsconfig/lit",
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"],
   "compilerOptions": {
-    "outDir": "./out",
+    "outDir": "./",
     "rootDir": "./src",
   }
 }

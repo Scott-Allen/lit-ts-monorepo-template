@@ -21,6 +21,25 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0
 
+  lit-components/example-child-component:
+    dependencies:
+      lit:
+        specifier: ^3.1.2
+        version: 3.1.2
+    devDependencies:
+      '@web/dev-server':
+        specifier: ^0.4.2
+        version: 0.4.2
+      shared-css:
+        specifier: workspace:*
+        version: link:../../packages/shared-css
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      typescript:
+        specifier: ~5.2.2
+        version: 5.2.2
+
   lit-components/example-component:
     dependencies:
       lit:
@@ -30,6 +49,9 @@ importers:
       '@web/dev-server':
         specifier: ^0.4.2
         version: 0.4.2
+      example-child-component:
+        specifier: workspace:*
+        version: link:../example-child-component
       shared-css:
         specifier: workspace:*
         version: link:../../packages/shared-css

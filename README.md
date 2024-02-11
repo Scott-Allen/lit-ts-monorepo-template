@@ -48,7 +48,7 @@ I believe we could replace Turbo by just adding relevant `references` entry into
 ```
 
 ### Parcel
-Using [ParcelJS](https://parceljs.org/) to bundle. I just wanted something that would bundle easily from a HTML file, so that I wouldn't have to install lit apps that use the components (see [test site](apps/my-site/index.html)).
+Using [ParcelJS](https://parceljs.org/) to bundle. I just wanted something that would bundle easily from a HTML file target, so that I wouldn't have to install lit dependencies in the 'site' (see [test site](apps/my-site/index.html)).
 
 ### Web Dev Server
 [web dev server](https://modern-web.dev/docs/dev-server/overview/) just feels like the standard and seems to work well. Essentially it allows us to serve our sites or demo sites using `pnpm start` command: `wds --node-resolve --open --watch`. Running this on the relevant site alongside `turbo dev` at the root level allows you to see any updates in realtime.

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "wds --node-resolve --open --watch",
-    "bundle": "parcel index.html"
+    "bundle": "parcel index.html --watch-dir=../../"
   },
   "dependencies": {
     "example-component": "workspace:*"
