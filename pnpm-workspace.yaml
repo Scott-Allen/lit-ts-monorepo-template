@@ -1,0 +1,4 @@
+packages:
+  - 'packages/*'
+  - 'lit-components/*'
+  - 'apps/*'

@@ -1,0 +1,19 @@
+{
+  "name": "my-site",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "showconfig": "tsc --showConfig",
+    "start": "wds --node-resolve --open --watch",
+    "bundle": "parcel index.html"
+  },
+  "dependencies": {
+    "example-component": "workspace:*"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.2",
+    "parcel": "^2.11.0"
+  }
+}

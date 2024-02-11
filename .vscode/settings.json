@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/packages/tsconfig/lit.json",
+                "/packages/tsconfig/base.json"
+            ],
+            "url": "https://json.schemastore.org/tsconfig"
+        }
+    ]
+}

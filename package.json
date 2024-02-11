@@ -1,0 +1,12 @@
+{
+  "name": "lit-ts-monorepo-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "example-component",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "wds --node-resolve --open demo/index.html --watch",
+    "showconfig": "tsc --showConfig"
+  },
+  "dependencies": {
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "~5.2.2",
+    "tsconfig": "workspace:*",
+    "shared-css": "workspace:*",
+    "@web/dev-server": "^0.4.2"
+  }
+}
